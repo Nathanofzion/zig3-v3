@@ -1,0 +1,30 @@
+[submodule "Zig3-Soroswap"]
+	path = Zig3-Soroswap
+	url = https://github.com/Nathanofzion/Zig3-Soroswap.git
+[submodule "packages/passkey-kit"]
+	path = packages/passkey-kit
+	url = https://github.com/Nathanofzion/passkey-kit.git
+[submodule "packages/launchtube"]
+	path = packages/launchtube
+	url = https://github.com/Nathanofzion/launchtube.git
+[submodule "packages/superpeach"]
+	path = packages/superpeach
+	url = https://github.com/Nathanofzion/superpeach.git
+[submodule "packages/core"]
+	path = packages/core
+	url = https://github.com/Nathanofzion/core.git
+[submodule "packages/nathan_project"]
+	path = packages/nathan_project
+	url = https://github.com/Nathanofzion/nathan_project.git
+[submodule "packages/backend"]
+	path = packages/backend
+	url = https://github.com/Nathanofzion/backend.git
+[submodule "packages/frontend"]
+	path = packages/frontend
+	url = https://github.com/Nathanofzion/frontend.git
+[submodule "packages/staking-soroban"]
+	path = packages/staking-soroban
+	url = https://github.com/Nathanofzion/staking-soroban.git
+[submodule "packages/tailwind-firebase-nextjs-referrel-system"]
+	path = packages/tailwind-firebase-nextjs-referrel-system
+	url = https://github.com/Nathanofzion/tailwind-firebase-nextjs-referrel-system.git
