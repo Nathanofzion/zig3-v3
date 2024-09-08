@@ -68,7 +68,7 @@ pnpm install
 Now you are ready to start the development instance. To run the main Zig3-soroswap UI application, use:
 
 ```bash
-pnpm --filter Zig3-Soroswap start
+pnpm --filter zig3-soroswap start
 ```
 
 This command will start only the `ui-package`, allowing it to consume the dependencies from the other submodules.
