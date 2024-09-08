@@ -4,8 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"install:submodules": "pnpm run install:zig3-soroswap && pnpm run install:nathan_project && pnpm run install:Core && pnpm run install:Frontend && pnpm run install:Backend && pnpm run install:Passkey-kit && pnpm run install:tailwind-firebase-nextjs-referral-system",
+"install:zig3-soroswap": "cd zig3-soroswap && nvm use 18.17.0 && yarn install",
+"install:nathan_project": "cd nathan_project && nvm use 19.0.1 && npm install",
+"install:Core": "cd Core && nvm use 18.17.0 && yarn install",
+"install:Frontend": "cd Frontend && nvm use 18.17.0 && yarn install",
+"install:Backend": "cd Backend && nvm use 18.17.0 && yarn install",
+"install:Passkey-kit": "cd Passkey-kit && nvm use 20.0.0 && yarn install",
+"install:tailwind-firebase-nextjs-referral-system": "cd tailwind-firebase-nextjs-referral-system && nvm use 18.17.0 && yarn install"
+},
+"devDependencies": {
+"pnpm": "^7.0.0"
+},
   "keywords": [],
   "author": "",
   "license": "ISC"
