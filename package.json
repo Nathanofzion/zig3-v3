@@ -13,6 +13,16 @@
 "install:Passkey-kit": "cd Passkey-kit && nvm use 20.0.0 && yarn install",
 "install:tailwind-firebase-nextjs-referral-system": "cd tailwind-firebase-nextjs-referral-system && nvm use 18.17.0 && yarn install"
 },
+"dependencies": {
+  "backend": "workspace:*",
+  "core": "workspace:*",
+  "nathan_project": "workspace:*",
+  "launchtube": "workspace:*",
+  "passkey-kit": "workspace:*",
+  "staking-soroban": "workspace:*",
+  "superpeach": "workspace:*",
+  "tailwind-firebase-nextjs-referrel-system": "workspace:*"
+},
 "devDependencies": {
 "pnpm": "^7.0.0"
 },
