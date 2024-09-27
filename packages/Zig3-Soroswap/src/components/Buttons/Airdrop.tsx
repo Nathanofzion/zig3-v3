@@ -46,7 +46,7 @@ const ActiveButton = styled(BaseButton)`
 
 export function AirdropButton({ style, light }: { style?: React.CSSProperties; light?: boolean }) {
 
-  const handleClick = () => {
+  const handleClick = () => { window.open('/pages/zi-airdrop', '_self'); // Change '_self' to '_blank' if you want to open in a new tab
 
   };
 

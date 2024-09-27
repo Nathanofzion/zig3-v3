@@ -28,3 +28,6 @@
 [submodule "packages/tailwind-firebase-nextjs-referrel-system"]
 	path = packages/tailwind-firebase-nextjs-referrel-system
 	url = https://github.com/Nathanofzion/tailwind-firebase-nextjs-referrel-system.git
+[submodule "packages/ye-olde-guestbook"]
+	path = packages/ye-olde-guestbook
+	url = https://github.com/Nathanofzion/ye-olde-guestbook.git
