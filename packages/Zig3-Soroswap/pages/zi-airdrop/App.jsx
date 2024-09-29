@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import {BgParticles} from "./nathan_project/src/components/BgParticles";
-import {Hero} from "./nathan_project/src/pages/Hero";
+import {BgParticles} from "./BgParticles";
+import {Hero} from "./Hero";
 import sun from "./assets/sun.svg";
 import moon from "./assets/moon.svg";
 
